@@ -3,15 +3,15 @@ import { RouterOutlet } from '@angular/router';
 import { EncabezadoComponent } from "./encabezado/encabezado.component";
 import { ContenidoComponent } from "./contenido/contenido.component";
 import { PieComponent } from "./pie/pie.component";
-import { CarrucelComponent } from "./carrucel/carrucel.component";
 import { CardProductosComponent } from './card-productos/card-productos.component';
+import { RegistroComponent } from "./registro/registro.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, EncabezadoComponent, ContenidoComponent, PieComponent, CarrucelComponent, CardProductosComponent],
+  imports: [RouterOutlet, EncabezadoComponent, ContenidoComponent, PieComponent, CardProductosComponent, RegistroComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'My-app';
+  title = 'Que Sabor';
 }
